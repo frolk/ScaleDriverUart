@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ScaleDriver</string>
+    <string name="connection">Подключение</string>
+    <string name="device">Устройство</string>
+    <string name="no_device">Устройство недоступно</string>
+</resources>
