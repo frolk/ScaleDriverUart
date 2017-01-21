@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtMessage;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
 
         service_init();
     }
+
+    private ServiceConnection mServiceConnection;
+
 
 
     private void service_init() {
